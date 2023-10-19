@@ -1,0 +1,24 @@
+.navbar-toggle {
+    display: none;
+}
+
+.navbar nav {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Show the button and hide nav items in small screen */
+@media (max-width: 600px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-nav.show {
+        display: flex;
+    }
+}
